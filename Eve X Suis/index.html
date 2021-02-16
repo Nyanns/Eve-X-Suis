@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <title>EVE x Suis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">
+                <a href="https://www.youtube.com/watch?v=yXl5D2B8nKk">LOTTE</a>
+            </h2>
+            <div class="toggle"></div>
+        </header>
+
+
+        <video src="Eve × suis from ヨルシカ MV.mkv" loop autoplay></video>
+
+        <div class="overlay"></div>
+
+
+        <div class="text">
+            <h2>valentine chocolate</h2>
+            <h3>feat Eve × suis from ヨルシカ</h3>
+            <p>Lorem ipsum dolor sit amet、エリートアジピシングの一貫性、sed do eiusmod
+                tempor incididunt ut Labore et dolore magnaaliqua。 Ut enim ad minim veniam、
+                quis nostrud exercitation ullamco Laboris nisi ut aliquip ex ea commodo
+                consequat。</p>
+            <a href="https://www.youtube.com/watch?v=lxw4Y8qzq4w">buy now</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="https://twitter.com/login?lang=id"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">shop place</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
